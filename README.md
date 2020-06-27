@@ -5,7 +5,7 @@ Where I've to find Employee will leave or not by predicting **"Attrition_rate"**
 
 Approach = Multi LinearRegression this approch work for numeric values and Employee_ID is string type that's why I've saprate that column and once I got my prediction values I've combine my prediction with Employee_ID because prediction order is not changed.
 
-Feature Engineering Variable = After find the correlation b/w all the variables, I'm not sure about VAR columns so I've used SelectKBest tool and select 8 feature according to F_Score.
+Feature Engineering Variable = After find the correlation b/w all the variables, I'm not sure about VAR columns so I've used SelectKBest tool and select 8 feature according to ANOVA F_Value.
 
 Model Evalution: For better accuracy I've Lasso Regression.
 
